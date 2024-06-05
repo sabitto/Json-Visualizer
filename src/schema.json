@@ -1,0 +1,67 @@
+{
+    "id": "user",
+	"title": "User",
+    "type": "object",
+    "properties": 
+    {
+        "id": {
+            "type": "integer"
+        },
+        "name": {
+            "type": "string"
+        },
+        "birthday": {
+            "type": "string"
+        },
+        "ages": {
+            "title": "Ages",	
+            "type": "object",
+            "properties": 
+            {
+                "ages_id": {
+                "title": "random",
+                "type": "object",
+                "properties":
+                {
+                    "id":
+                    {
+                        "type":"integer"
+                    }
+                }
+                
+                },
+                "ages_name": 
+                {
+                    "title": "random2",
+                    "type": "object",
+                    "properties":
+                {
+                    "id":
+                    {
+                        "type":"integer"
+                    }
+                }
+                }
+            }
+        },
+        "roles": 
+        {
+		    "title": "Roles",	
+            "type": "object",
+		    "properties": 
+            {
+                "role_id": 
+                {
+                    "type": "integer"
+                },
+                "role_name": 
+                {
+                    "type": "string"
+		        }
+            }
+        },
+        "image":
+        {"type": "jpg"}
+    },
+    "required": ["id", "name"]
+}

@@ -1,0 +1,30 @@
+
+
+.node-row .key {
+  text-align: left;
+}
+
+.node-row .type {
+  text-align: right;
+  color: grey;
+}
+
+.node-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.key {
+  font-weight: bold;
+}
+
+.value {
+  text-align: center;
+  
+}
+
+.type {
+  color: gray;
+}
+
+
